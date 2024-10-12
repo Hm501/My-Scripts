@@ -130,7 +130,7 @@ end
 
 local function Create(Name, Properties, Children)
 	local Object = Instance.new(Name)
-	if Object:IsA("Frame") then Object.Draggable = true end
+	pcall(function() Object.Draggable = true end)
 	for i, v in next, Properties or {} do
 		Object[i] = v
 	end
